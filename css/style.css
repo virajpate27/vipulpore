@@ -480,13 +480,17 @@ header .dropdown-menu{
     padding:0 20px
 }
 .sub-menu-column .menuheading{
-    color:#050748;
+    color:#000;
     font-weight:700;
     font-size:18px;
     letter-spacing:.2px;
     margin:0 0 16px;
     padding:0 0 14px;
-    border-bottom:1px solid #dadada
+    border-bottom:none;
+}
+
+.sub-menu-column .menuheading a{
+    color: #000;
 }
 .sub-menu-column ul{
     width:100%;
@@ -511,11 +515,11 @@ header .dropdown-menu{
 }
 .sub-menu-section{
     box-shadow:0 10px 20px 0 rgb(0 0 0/.04);
-    border-top:2px solid #f3f3f3;
+    border-top:2px solid #00bcd4;
     width:100%;
     padding:40px 0;
     display:inline-block;
-    background-color:#fff;
+    background-color:#00bcd4;
     margin-top:4px
 }
 .btn-block a{
@@ -5353,7 +5357,8 @@ body.hc-nav-open{
     line-height:36px
 }
 .hc-offcanvas-nav .nav-item{
-    padding:14px 17px;
+    /* padding:14px 17px; */
+    padding:0;
     font-size:15px;
     color:#fff;
     z-index:1;
@@ -5508,7 +5513,7 @@ body.hc-nav-open{
     background:#101010
 }
 .hc-offcanvas-nav.nav-levels-expand .nav-container ul ul .nav-item,.hc-offcanvas-nav.nav-levels-none .nav-container ul ul .nav-item{
-    font-size:14px
+    font-size:13px
 }
 .hc-offcanvas-nav.nav-levels-expand .nav-container li,.hc-offcanvas-nav.nav-levels-none .nav-container li{
     transition:background .3s ease
@@ -7609,4 +7614,9 @@ width: 60px;
 
 .maincl{
 	background: linear-gradient(to right,#00bcd4 0,#0e9eb1 100%);
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
 }
