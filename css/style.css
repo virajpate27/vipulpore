@@ -2615,7 +2615,7 @@ footer.ftshap:before{
     margin-bottom:10px;
     border-width:2px;
     border-style:solid;
-    border-color:#eaedff;
+    border-color:#dfe0e2;
     border-image:initial;
     padding:12px 24px;
     border-radius:5px
@@ -4557,7 +4557,7 @@ h2{
     line-height:52px
 }
 h3{
-    font-size:34px;
+    font-size:26px;
     line-height:46px
 }
 h4{
