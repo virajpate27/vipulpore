@@ -7620,3 +7620,7 @@ width: 60px;
     display: none;
     visibility: hidden;
 }
+
+.blist li{
+    margin-bottom: 14px;
+}
