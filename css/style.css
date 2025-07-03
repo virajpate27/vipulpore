@@ -4166,7 +4166,7 @@ h3 a{
     display:flow-root;
     list-style:none;
     border-radius:.25rem;
-    margin:60px 0 0
+    margin:60px 0;
 }
 .pagination a{
     display:inline-block;
@@ -7623,4 +7623,10 @@ width: 60px;
 
 .blist li{
     margin-bottom: 14px;
+}
+
+.nactive{
+    background-color: #fe409c;
+    border-radius: 100%;
+    color: #fff;
 }
